@@ -1,0 +1,65 @@
+html, body {
+  width: 100%;
+  margin: 0;
+  font-family: 'Nunito', sans-serif;
+  color: #59595a;
+}
+
+button {
+  border: 0;
+  border-radius: 15px;
+  background-color: #0080FF;
+  color: white;
+  cursor: pointer;
+}
+
+.main-container {
+  width: 90%;
+  min-width: 960px;
+  margin: 100px auto;
+  text-align: center;
+}
+
+.book-form {
+  border-radius: 2px;
+  height: 0;
+  width: 20%;
+  padding: 10px 10px 0 10px;
+  transition: height 0.5s;
+  margin: 0 auto;
+  text-align: left;
+  float: left;
+}
+
+.instructions {
+  float: left;
+  margin-top: -50px;
+}
+
+.book-form input {
+  margin: 5px 0;
+}
+
+.books-container {
+  border: 3px solid #0080FF;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  overflow: hidden;
+  width: 70%;
+  float: right;
+}
+
+.deleteButtonClass {
+  float: right;
+}
+
+.book {
+  font-weight: bold;
+  padding: 12px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.book button {
+  margin: 0 5px;
+}
